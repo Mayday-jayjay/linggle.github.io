@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet">  <!--接下來要撰寫的CSS-->
+    <title>Linggle</title>
+    <meta name="description" content="Linggle by NLPLab for English learners.">
+  </head>
+
+  <body>
+    <div class="container">
+    <div class="row align-items-center justify-content-center">
+      <!------------導覽列--------------->
+      <nav class="navbar navbar-expand-lg navbar-light bg-amos mb-1 fixed-top bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="images/linggle.jpg" alt="..." height="60">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown"><!--關於我們-->
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  關於我們
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="about-nlplab.html">NLPlab 清華大學自然語言處理實驗室</a>
+                  <a class="dropdown-item" href="about-history.html">Linggle發展與沿革</a>
+                  <a class="dropdown-item" href="about-contact.html">聯絡我們</a>
+                </ul>
+              </li>
+              <li class="nav-item dropdown"><!--Linggle (搭配詞檢索工具)-->
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Linggle
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item"href="linggle.html">特色說明</a>
+                  <a class="dropdown-item"target="_blank" href="https://linggle.com/" target="_blank">開始使用Linggle (網頁版)</a>
+                  <a class="dropdown-item"target="_blank" href="https://chrome.google.com/webstore/detail/linggle-booster/coelfbccpebdmedkflhadogbojlbpafe" target="_blank">Linggle Booster (app)</a>
+                  <a class="dropdown-item"target="_blank" href="https://linggle.com/help/" target="_blank">操作及查詢技巧說明</a>
+                  <a class="dropdown-item"href="linggle-video.html">操作及查詢技巧教學影片</a>
+                </ul>
+              </li>
+              <li class="nav-item dropdown"><!--LinggleWrite – 英語寫作輔助神器-->
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  LinggleWrite
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item"href="lingglewrite.html">特色說明</a>
+                  <a class="dropdown-item"target="_blank" href="https://f.linggle.com/" target="_blank">開始使用LinggleWrite</a>
+                </ul>
+              </li>
+              <li class="nav-item dropdown"><!--R Linggle - 階梯字慧-->
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  R Linggle
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="rlinggle.html" >特色功能說明</a>
+                  <a class="dropdown-item"target="_blank" href="https://r.linggle.com/" target="_blank">試用R Linggle</a>
+                  <a class="dropdown-item"target="_blank" href="https://elevelup-linggle.github.io/subscribe" target="_blank">立即訂閱</a>
+                </ul>
+              </li>
+              <li class="nav-item dropdown"><!--新聞中心-->
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  新聞中心
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item"href="linggle-news.html">各界肯定</a>
+                  <a class="dropdown-item"href="linggle-activity.html">相關活動</a>
+                  <a class="dropdown-item"href="linggle-learning.html">學習資訊</a>
+                </ul>
+              </li>
+              <li class="nav-item dropdown"><!--會員專區-->
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  會員專區
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item"href="https://linggle.com/login/" target="_blank">會員登入</a>
+                  <a class="dropdown-item"href="#">會員密碼查詢</a>
+                  <a class="dropdown-item"href="#">會員登出</a>
+                </ul>
+              </li>
+              <li class="nav-item dropdown"><!--社團-->
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  社團
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item"target="_blank" href="https://www.facebook.com/Lingglebynlplab" target="_blank">FB</a>
+                  <a class="dropdown-item"target="_blank" href="https://www.facebook.com/groups/4650977498277155" target="_blank">My Linggle Friends</a>
+                </ul>
+              </li>
+              <!--<li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>-->
+            </ul>
+            <!--<form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>-->
+          </div>
+        </div>
+      </nav>
+
+
+      <!------------輪播區--------------->      
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+  
+        <!------------內容區--------------->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/home-carousel-1.png" class="d-block w-100">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>運用大數據學習英文搭配詞</h5>
+              <p>英文寫作不詞窮！台灣研發更強大語言學習搜尋引擎</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/home-carousel-4.jpeg" class="d-block w-100">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>歡迎加入 My Linggle Friends Club</h5>
+              <p>一起共同分享學習英文的大小事</p>
+            </div>
+          </div>          
+          <div class="carousel-item">
+            <img src="images/home-carousel-1.png" class="d-block w-100">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>萬眾期待的 R Linggle 英語閱讀神器上市囉</h5>
+              <p>讓您輕鬆閱讀網路上的文章</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/home-carousel-1.png" class="d-block w-100">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>LinggleWrite線上英語寫作輔助工具</h5>
+              <p>不僅提升寫作品質，同時也加深記憶，一舉數得。</p>
+            </div>
+          </div>        
+        </div>
+
+
+        <!------------左右箭頭區------------>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+      <!------------最新消息-------------->
+      <div class="d-flex mt-3">
+        <img src="images/icons-news1.png" style="height:40px;">&nbsp;&nbsp;
+        <h2>最新消息</h2>
+      </div>      
+      <!-- <div class="link-top "></div>-->
+
+      <table class="table table-light table-striped table-hover mt-1" style="font-size: larger;">
+        <thead>
+          <tr>
+            <th scope="col" style="width: 150px;">公告時間</th>
+            <th scope="col">公告內容</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">2022-08-03</th>
+            <td ><a href="http://whisky.nlplab.cc:9080/?fbclid=IwAR2t7ZOaL2vI_kI0B8xsg6a1RFiIdj8lCHaRA7LvlJKwjL9BCBAksk4ERxU" class="text-dark"target="_blank">R. Linggle 英語閱讀神器販售中</a></td>
+          </tr>
+          <tr>
+            <th scope="row">2022-08-04</th>
+            <td><a href="https://www.facebook.com/Lingglebynlplab/videos/809647840474002" class="text-dark"target="_blank">英文閱讀變快了一切更美好</a></td>
+          </tr>
+          <tr>
+            <th scope="row">2022-08-05</th>
+            <!--<td colspan="2">Larry the Bird</td>-->
+            <td><a href="https://www.facebook.com/Lingglebynlplab/photos/a.129381981786551/869132874478121/" class="text-dark"target="_blank">make a mistake? make one mistake?有了 R. Linggle大數據告訴你</a></td>
+          </tr>
+          <tr>
+            <th scope="row">2022-08-06</th>
+            <td><a href="https://www.facebook.com/Lingglebynlplab/photos/pcb.343193143738766/343192183738862/" class="text-dark"target="_blank">2020 暑期工作坊</a></td>
+          </tr>
+          <tr>
+            <th scope="row">2022-08-06</th>
+            <td><a href="http://home.lib.fju.edu.tw/TC/node/866" class="text-dark"target="_blank">圖書館英文寫作平台 (Linggle) 利用教育-老師場 [實體+線上]</a></td>
+          </tr>
+  
+        </tbody>
+      </table>
+
+      <!------------內容介紹(卡片)--------->
+      <!------------主要內容 (三個卡片)----->
+      <div class="d-flex mt-3">
+        <img src="images/icons-read1.png" style="height:40px;">&nbsp;&nbsp;
+        <h2>功能介紹</h2>
+      </div>
+
+      <!-- <div class="link-top"></div>  -->
+       
+      <main class="container my-1 w-100">
+          <!-- 第1個卡片 -->        
+        <div class="row border border-info my-3 align-items-center w-100">          
+              <div class="col-md-6 p-2">
+                <img class="rounded-start d-block mx-auto w-100" src="images/home-card-1.png"  style="max-width: 400px;">
+              </div>
+              <div class="col-md-6 p-4"  style="background-color:#d6dcf5;color: rgb(0, 0, 0);">
+                  <div class="d-flex">
+                    <img src="images/icons-light-1.png" style="height:40px;">&nbsp;&nbsp;
+                    <h2 style="color: black;">NLPlab</h2>
+                   
+                  </div>         
+      
+                  <!-- <h5><a href="about.html" class="text-secondary" style="font-weight:bold;">NLPlab</a></h5> -->
+                  <p>
+                    NLPlab自然語言處理實驗室，是由國立清華大學張俊盛教授 (Prof. Jason S. Chang) 於1988年創立。NLPlab團隊作為以AI相關研究的學界先驅，嘗試以大數據分析方式開發多項英語學習工具， 而其中屢獲殊榮的語言搜索引擎為「Linggle」。Linggle為「全方面語言學習工具」的免費整合平台，目前已累積一定的忠誠使用者及知名度，但仍為服務更多語言學習者而努力開發創新更多的功能與技術。</p>
+                    
+                  <a class="btn btn-outline-light btn-lg" href="#" role="button"  style="font-weight:bold;" target="_blank">
+                    Link to NLPlab
+                  </a>
+              
+              </div>
+        </div>
+          <!-- 第2個卡片 -->        
+          <div class="row border border-info my-3 align-items-center w-100">          
+            <div class="col-md-6 p-2">
+              <img class="rounded-start d-block mx-auto w-100" src="images/home-card-2.png"  style="max-width: 400px;">
+            </div>
+            <div class="col-md-6 p-4 h-100"  style="background-color:#d6dcf5;color: rgb(0, 0, 0);">
+              <div class="d-flex">
+                <img src="images/icons-light-1.png" style="height:40px; ">&nbsp;&nbsp;
+                <h2 style="color: black;">Linggle 是什麼？</h2>
+              </div>  
+
+                <!-- <h5><a href="linggle.html" class="text-secondary" style="font-weight:bold;">Linggle是什麼？</a></h5> -->
+                <p>
+                  Linggle，是由清大張俊盛教授與其團隊開發的線上服務，利用大數據來讓你知道搭配詞的用法。「 Linggle 」可以幫助我們分析更準確的英文寫作建議，因為「 Linggle 」能夠根據「詞性」來推測片語與句子，所以能夠更加精準的分析出「描寫一個行動」、「形容一件事情」的完整英文句子要如何撰寫。
+                </p>
+                    
+                <a class="btn btn-outline-light btn-lg"target="_blank" href="https://linggle.com/" role="button"  style="font-weight:bold;" target="_blank">
+                  Link to Linggle
+                </a>
+            </div>
+          </div>  
+          <!-- 第3個卡片 -->        
+          <div class="row border border-info my-3 align-items-center w-100">          
+            <div class="col-md-6">
+              <img class="d-block mx-autow w-100" src="images/home-card-3.png" >
+            </div>
+            <div class="col-md-6 p-4 h-100"  style="background-color:#d6dcf5;color: rgb(0, 0, 0);">
+
+              <div class="d-flex">
+                <img src="images/icons-light-1.png" style="height:40px; ">&nbsp;&nbsp;
+                <h2 style="color: black;">LinggleWrite 是什麼？</h2>
+              </div>  
+
+                <!-- <h5><a href="linggle.html" class="text-secondary" style="font-weight:bold;">LinggleWrite是什麼？</a></h5> -->
+                <p>
+                  LinggleWrite是由國立清華大學NLPlab自然語言處理實驗室所開發的線上英語寫作輔助工具，讓寫作者在輸入字句的同時，即時提供適當的文法建議、單詞搭配、常用片語以及相關例句，文章完成後也能給予文法改錯建議，和英語能力分級鑑定。不僅提升寫作品質，同時也加深記憶，一舉數得。
+                </p>
+                <a class="btn btn-outline-light btn-lg"target="_blank" href="https://f.linggle.com/" role="button"  style="font-weight:bold;" target="_blank">
+                  Link to LinggleWrite
+                </a>
+            </div>
+          </div>
+
+          <!-- 第4個卡片 -->        
+          <div class="row border border-info my-3 align-items-center w-100">          
+            <div class="col-md-6">
+              <img class="d-block mx-autow w-100" src="images/home-card-4.png" >
+            </div>
+            <div class="col-md-6 p-4 h-100"  style="background-color:#d6dcf5;color: rgb(0, 0, 0);">
+              <div class="d-flex">
+                <img src="images/icons-light-1.png" style="height:40px; ">&nbsp;&nbsp;
+                <h2 style="color: black;">R Linggle 是什麼？</h2>
+              </div>  
+
+                <!-- <h5><a href="linggle.html" class="text-secondary" style="font-weight:bold;">R LinggleWrite是什麼？</a></h5> -->
+                <p>
+                  R Linggle 能夠抓取網路上的文章。只要張貼網址，即可自動取得網站內容，讓您省去手動複製貼上的重複作業，專注在想要閱讀的文章。
+                  整合字典查詢、單字分級標注、一鍵文章朗讀、同時整合 Linggle 服務，讓您快速找出單字相關用法的使用率。
+                </p>
+                <a class="btn btn-outline-light btn-lg" href="https://elevelup-linggle.github.io/" role="button"  style="font-weight:bold;" target="_blank">
+                  Link to R Linggle
+                </a>
+
+            </div>
+          </div>          
+        
+      </main>	
+
+      <!------------頁尾----------------->
+      <footer class="text-white p-4"  style="background-color:#3a405a">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-8 col-md-4 p-4 d-block mx-auto">
+            <img src="images/logo-4.png" class="rounded mx-auto d-block w-70" alt="...">            
+          </div>
+          <div class="col-12 col-md-8 p-4">        
+            <p>階梯字慧股份有限公司</p>
+            <p>mail：eleveluplinggle@gmail.com</p>
+            <p>Hours：Monday - Sunday 。 7:00 am - 9:00 pm</p>
+            <p>© 2022 Copyright：<a class="text-reset fw-bold"target="_blank" href="https://elevelup-linggle.github.io//">R Linggle 階梯智慧</a></p>
+          </div>
+        </div>
+      </footer>
+    </div>  
+    </div>  <!--container-->
+    
+    <!------------------------------------------------------------------>    
+    <!-- Optional JavaScript; choose one of the two! -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!------------------------------------------------------------------>   
+  </body>
+</html>

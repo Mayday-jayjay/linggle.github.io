@@ -1,0 +1,45 @@
+/* ------------共通部分------------------- */
+body {
+    line-height: 2;
+    padding-top:90px;
+}
+
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+/* ------------導覽列-------------------*/
+
+/* ------------線條------------------- */
+.link-top {
+    width: 150px;
+    height: 1px;
+    border-top: solid #ACC0D8 2px;
+}
+
+/*畫一條在右邊的豎線*/
+.link-right {
+    width: 50px;
+    height: 20%;
+    border-right: solid #ACC0D8 1px;
+}
+
+/*******location***********/
+#location {
+    padding: 4% 0;
+}
+#location .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.location-info {
+    width: 22%;
+}
+.location-info p {
+    padding: 12px 10px;
+}
+.location-map {
+    width: 74%;
+}

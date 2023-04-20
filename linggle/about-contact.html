@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet">  <!--接下來要撰寫的CSS-->
+    <title>Linggle-contact</title>
+    <meta name="description" content="Linggle by NLPLab for English learners.">
+  </head>
+
+  <body style="padding-top:50px;font-family: Georgia;">
+    <div class="container">
+      <!------------導覽列--------------->
+      <nav class="navbar navbar-expand-lg navbar-light bg-amos mb-1 fixed-top bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="images/linggle.jpg" alt="..." height="60">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown"><!--關於我們-->
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  關於我們
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="about-nlplab.html">NLPlab 清華大學自然語言處理實驗室</a>
+                  <a class="dropdown-item" href="about-history.html">Linggle發展與沿革</a>
+                  <a class="dropdown-item" href="about-contact.html">聯絡我們</a>
+                </ul>
+              </li>
+              <li class="nav-item dropdown"><!--Linggle (搭配詞檢索工具)-->
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Linggle
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item"href="linggle.html">特色說明</a>
+                  <a class="dropdown-item"target="_blank" href="https://linggle.com/" target="_blank">開始使用Linggle (網頁版)</a>
+                  <a class="dropdown-item"target="_blank" href="https://chrome.google.com/webstore/detail/linggle-booster/coelfbccpebdmedkflhadogbojlbpafe" target="_blank">Linggle Booster (app)</a>
+                  <a class="dropdown-item"target="_blank" href="https://linggle.com/help/" target="_blank">操作及查詢技巧說明</a>
+                  <a class="dropdown-item"href="linggle-video.html">操作及查詢技巧教學影片</a>
+                </ul>
+              </li>
+              <li class="nav-item dropdown"><!--LinggleWrite – 英語寫作輔助神器-->
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  LinggleWrite
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item"href="lingglewrite.html">特色說明</a>
+                  <a class="dropdown-item"target="_blank" href="https://f.linggle.com/" target="_blank">開始使用LinggleWrite</a>
+                </ul>
+              </li>
+              <li class="nav-item dropdown"><!--R Linggle - 階梯字慧-->
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  R Linggle
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="rlinggle.html">特色功能說明</a>
+                  <a class="dropdown-item"target="_blank" href="https://r.linggle.com/" target="_blank">試用R Linggle</a>
+                  <a class="dropdown-item"target="_blank" href="https://elevelup-linggle.github.io/subscribe" target="_blank">立即訂閱</a>
+                </ul>
+              </li>
+              <li class="nav-item dropdown"><!--新聞中心-->
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  新聞中心
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item"href="linggle-news.html">各界肯定</a>
+                  <a class="dropdown-item"href="linggle-activity.html">相關活動</a>
+                  <a class="dropdown-item"href="linggle-learning.html">學習資訊</a>
+                </ul>
+              </li>
+              <li class="nav-item dropdown"><!--會員專區-->
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  會員專區
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item"href="https://linggle.com/login/" target="_blank">會員登入</a>
+                  <a class="dropdown-item"href="#">會員密碼查詢</a>
+                  <a class="dropdown-item"href="#">會員登出</a>
+                </ul>
+              </li>
+              <li class="nav-item dropdown"><!--社團-->
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  社團
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item"target="_blank" href="https://www.facebook.com/Lingglebynlplab" target="_blank">FB</a>
+                  <a class="dropdown-item"target="_blank" href="https://www.facebook.com/groups/4650977498277155" target="_blank">My Linggle Friends</a>
+                </ul>
+              </li>
+              <!--<li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>-->
+            </ul>
+            <!--<form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>-->
+          </div>
+        </div>
+      </nav>
+      <div>
+        <img src="images/home-carousel-4.jpeg">
+      </div>
+      <!-- 主要內容  -->
+      <main class="my-3">
+
+        <!-- Contact us -->
+        <div class="p-4 col-md-12 wow animated fadeInLeft" data-wow-delay=".2s">
+            <h1 class="section-title">Contact us</h1>
+            <h4>We will get back to you as soon as possible.</h4>
+        </div>
+
+
+        <!-- Wrapper container -->
+        <div class="container py-4 p-4">
+
+          <!-- Bootstrap 5 starter form -->
+          <form id="contactForm">
+
+            <!-- Name input -->
+            <div class="mb-3">
+              <label class="form-label" for="name">Name</label>
+              <input class="form-control" id="name" type="text" placeholder="Name" />
+            </div>
+
+            <!-- Email address input -->
+            <div class="mb-3">
+              <label class="form-label" for="emailAddress">Email Address</label>
+              <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" />
+            </div>
+
+            <!-- Message input -->
+            <div class="mb-3">
+              <label class="form-label" for="message">Message</label>
+              <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;"></textarea>
+            </div>
+
+            <!-- Form submit button -->
+            <div class="d-grid">
+              <button class="btn btn-info btn-lg" type="submit">Submit</button>
+            </div>
+          </form>
+        </div>
+        <hr>
+<!----------------------location---------------------->
+        <section id="location">
+          <div class="wrapper">
+              <div class="location-info">
+                  <h3 class="sub-title">國立清華大學</h3>
+                  <p>
+                      地址： 新竹市東區<br>
+                      光復路二段101號<br>
+                      電話： 02-xxxx-xxxx<br>
+                      營業時間： xx:xx〜xx:xx<br>
+                  </p>
+              </div><!-- /.location-info -->
+              <div class="location-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14488.285708045061!2d120.97225802704793!3d24.793007595370543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34683672cd4db607%3A0x112b5d5bda760413!2z5ZyL56uL5riF6I-v5aSn5a24!5e0!3m2!1szh-TW!2stw!4v1660365424739!5m2!1szh-TW!2stw" width="800" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div><!-- /.location-map -->
+          </div><!-- /.wrapper -->
+      </section><!-- /#location -->
+<!------------------------sns------------------------->	
+      <!------------頁尾----------------->
+      <footer class="text-white p-4"  style="background-color:#3a405a">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-8 col-md-4 p-4 d-block mx-auto">
+            <img src="images/logo-4.png" class="rounded mx-auto d-block w-70" alt="...">            
+          </div>
+          <div class="col-12 col-md-8 p-4">        
+            <p>階梯字慧股份有限公司</p>
+            <p>mail：eleveluplinggle@gmail.com</p>
+            <p>Hours：Monday - Sunday 。 7:00 am - 9:00 pm</p>
+            <p>© 2022 Copyright：<a class="text-reset fw-bold" href="https://elevelup-linggle.github.io//">R Linggle 階梯智慧</a></p>
+          </div>
+        </div>
+      </footer>
+    </div>  <!--container-->
+    
+    <!------------------------------------------------------------------>    
+    <!-- Optional JavaScript; choose one of the two! -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!------------------------------------------------------------------>   
+  </body>
+</html>
